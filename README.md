@@ -1,8 +1,8 @@
 # icecc-daemon
 
-The iceccd daemon running in a Docker container.
+The iceccd daemon running in a Docker container. Learn more about icecream here: https://github.com/icecc/icecream
 
-By running this on a remote computer, that computer will be enrolled into your icecream build infastructure as a worker node. This icecc daemon also needs to have a icecc scheudler running to distribute and manage the worker nodes including this one. You can start a scheduler using my other Docker image here: https://hub.docker.com/r/cbarraco/icecc-scheduler
+By running this on a remote computer, that computer will be enrolled into your icecream build infastructure as a worker node. This icecc daemon also needs to have a icecc scheduler running to distribute and manage the worker nodes including this one. You can start a scheduler using my other Docker image here: https://hub.docker.com/r/cbarraco/icecc-scheduler
 
 # Running the Container
 You can use this command to pull the container from Docker Hub and run it:
