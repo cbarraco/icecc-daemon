@@ -7,7 +7,7 @@ LABEL description="An icecream daemon image based on the latest Ubuntu"
 ENV LANG=en_US.utf8
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN apt-get update && apt-get install -y icecc ccache build-essential
+RUN apt-get update && apt-get install -y icecc build-essential
 
 EXPOSE 10245/tcp
 EXPOSE 8766/tcp
