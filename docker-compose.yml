@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+    icecc-daemon:
+        network_mode: host
+        restart: unless-stopped
+        environment:
+            - USE_SCHEDULER=XXX.XXX.XXX.XXX
+        image: cbarraco/icecc-daemon

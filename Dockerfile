@@ -13,8 +13,9 @@ RUN apt-get update && apt-get install -y icecc build-essential
 EXPOSE 10245/tcp
 EXPOSE 8766/tcp
 
-RUN apt-get install -y libncurses-dev libssl-dev libelf-dev libudev-dev \
-	    libpci-dev libiberty-dev && \
+RUN apt-get install -y \
+    libncurses-dev libssl-dev libelf-dev \
+    libudev-dev libpci-dev libiberty-dev && \
     apt-get autoclean && \
     rm -rf \
         /var/lib/apt/lists/* \
