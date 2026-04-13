@@ -8,7 +8,7 @@ ENV LANG=en_US.utf8
 ENV DEBIAN_FRONTEND=noninteractive
 ENV JOBS=${JOBS:--1}
 
-RUN apt-get update && apt-get install -y icecc build-essential
+RUN apt-get update && apt-get install -y icecc build-essential curl
 
 EXPOSE 10245/tcp
 EXPOSE 8766/tcp
